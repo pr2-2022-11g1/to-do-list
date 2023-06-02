@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(51, 157, 218);
+}
+.header .logo{
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-style: oblique ;
+    display: flex;
+    float: left;
+    padding: 10px 0px 0px 15px;
+
+    
+}
+#sp1{
+    border-bottom: 3px solid red;
+    border-radius: 1px;
+}
+.header .logo span{
+    color: maroon;
+    font-style: italic;
+}
+.header .nav{
+    
+    display: flex;
+    justify-content: end;
+}
+.header .nav li button{
+    margin: 15px 25px;
+    font-size: 20px;
+    padding: 4px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(212, 63, 63);
+}
